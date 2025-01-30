@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../main.css" />
+  </head>
+  <body style="text-align: center">
+    <div class="image_profile"><img src="../img/th.jpeg" alt="" /></div>
+    <nav>
+      <div class="logo">
+        <img src="/img/BMW-logo.png" alt="" />
+        <h1>BMW</h1>
+      </div>
+      <div>
+        <ul>
+          <a href="../aftersignUp/aftersignup.html"> <li>Home</li> </a>
+          <li>About</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><a href="/signUp/index.html">SignUp</a></li>
+          <li><a href="/signIn/index.html">LogIn</a></li>
+          <li>
+            <a href="/shop/shop.html"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="card">
+      <div class="one">
+        <img src="/img/profile-removebg-preview.png" alt="profile" />
+        <p class="email"><u>Email:</u>[email]</p>
+        <p class="pass"><u>Password:</u>[pass]</p>
+        <p class="date"><u>Member since:</u>[date]</p>
+      </div>
+      <div class="two">
+        <label for="email">Email:</label>
+        <input type="email" id="email" />
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" />
+        <button onclick="get()">Update</button>
+      </div>
+    </div>
+    <div class="signout">
+      <p class="signoutMessage"></p>
+      <button onclick="signOut()">SignOut</button>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/54ce491a04.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="./profile.js"></script>
+  </body>
+</html>

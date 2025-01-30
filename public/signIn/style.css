@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../img/bck.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  width: 550px;
+  height: 570px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.box h1 {
+  font-size: 4em;
+  padding: 1em;
+  color: white;
+}
+
+.box input {
+  font-size: 1.5em;
+  width: 50%;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 0.5em;
+  margin: 1em;
+  color: white;
+  border: 1px solid white;
+}
+
+#signUp,
+#logIn {
+  cursor: pointer;
+  margin-bottom: 3em;
+  background-color: transparent;
+ margin: 1em; 
+ padding: 0.5em;
+ color: white;
+ border-radius: 10px;
+ font-size: 1em;
+ margin-bottom: 3em;
+}
+
+#signUp:hover,
+#logIn:hover {
+  background-color: white;
+  color: black;
+}
+
+.box input::placeholder {
+  color: white;
+}
+
+.error {
+  background-color: rgba(255, 0, 81, 0.3);
+  width: 50%;
+  text-align: justify;
+  padding: 1em;
+  color: rgb(255, 0, 81);
+}
+
+.res {
+  width: 50%;
+  text-align: center;
+  padding: 1em;
+  color: white;
+}
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../main.css" />
+  </head>
+  <body style="text-align: center">
+    <nav>
+      <div class="logo">
+        <img src="/img/BMW-logo.png" alt="" />
+        <h1>BMW</h1>
+      </div>
+      <div>
+        <ul>
+          <a href="../aftersignUp/aftersignup.html"> <li>Home</li> </a>
+          <li>About</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><a href="/signUp/index.html">SignUp</a></li>
+          <li><a href="/signIn/index.html">LogIn</a></li>
+          <li>
+            <a href="/profile/profile.html"
+              ><i class="fa-regular fa-user"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="main">
+      <div class="popupOk" id="popup"></div>
+      <h1 class="h1" id="cartH1">Your Cart</h1>
+      <p id="note" class="note">Your cart is currently empty.</p>
+      <div class="total"></div>
+      <button class="checkButton" id="checkButton" onclick="checkout()">
+        Checkout
+      </button>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/54ce491a04.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="./shop.js"></script>
+  </body>
+</html>
